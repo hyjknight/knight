@@ -1,0 +1,769 @@
+¿¿¿¿¿¿¿¿¿¿¿¿
+¿¿¿ ¿¿¿¿¿commandphpn2¿¿¿lisp
+2010-04-08 18:53 9202¿¿¿ ¿¿(0) ¿¿ ¿¿
+ ¿¿¿ Linux¿11¿  
+:.,+3 s/^/#/g            ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+
+vi¿¿¿¿¿¿¿¿¿
+¿¿
+:ranges/pat1/pat2/g 
+¿¿ 
+: ¿¿Vi¿¿¿¿¿¿¿¿ 
+range
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿%¿¿¿¿¿¿¿¿¿¿¿.¿¿¿¿¿¿¿¿¿¿¿¿¿¿$¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿10,20¿
+¿¿10¿20¿¿.,$¿¿¿¿¿¿¿¿¿¿¿.+2,$-5¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+s ¿¿¿¿¿¿¿¿¿¿¿¿
+
+pat1 ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+
+pat2 ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+g
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+vi¿¿¿¿(¿¿)
+1)¿¿¿¿ 
+vi FileName ¿¿¿¿ FileName,¿¿¿¿¿¿¿¿¿¿¿ 
+vi +n FileName ¿¿¿¿ FileName,¿¿¿¿¿¿¿ n ¿¿¿ 
+vi + FileName ¿¿¿¿ FileName,¿¿¿¿¿¿¿¿¿¿¿ 
+vi + /pattern File ¿¿¿¿ File,¿¿¿¿¿¿¿¿¿¿¿¿ pattern
+¿¿¿¿¿¿¿¿ 
+vi ¿r FileName ¿¿¿¿¿ vi ¿¿ FileName ¿¿¿¿¿¿¿,¿¿FileName¿ 
+vi File1 ¿ Filen ¿¿¿¿¿¿,¿¿¿¿¿¿¿¿¿ 
+
+:%!xxd ¿¿¿¿¿¿¿¿¿¿¿ 
+:%!xxd -r ¿¿¿¿¿¿¿¿¿¿¿ 
+
+:n1,n2 co n3 ¿ n1 ¿¿ n2 ¿¿¿¿¿¿¿¿¿¿ n3 ¿¿¿ 
+:n1,n2 m m3 ¿ n1 ¿¿ n2 ¿¿¿¿¿¿¿¿¿ n3 ¿¿¿ 
+:n1,n2 d ¿ n1 ¿¿ n2 ¿¿¿¿¿¿¿¿¿ 
+:n1,n2 w filename ¿ n1 ¿¿ n2 ¿¿¿¿¿¿¿¿¿¿¿ filename ¿ 
+:n1,n2 w! Command ¿¿¿¿n1¿¿n2¿¿¿¿¿¿ Command¿¿¿¿¿¿¿¿ 
+¿¿¿¿ n1¿n2¿¿¿¿¿¿¿¿¿¿¿ Command ¿¿¿¿ 
+:r! Command ¿¿¿ Command ¿¿¿¿¿¿¿¿¿¿¿ 
+:nr <¿¿> ¿<¿¿>¿¿¿¿n¿ 
+:so <¿¿> ¿¿<¿¿>,¿¿¿¿¿¿¿¿¿¿(¿¿¿¿¿¿¿¿¿¿¿¿ex¿¿) 
+:l1,l2w <¿¿> ¿¿l1¿¿l2¿¿¿¿¿¿¿¿<¿¿>¿¿ 
+:w >> <¿¿> ¿¿¿<¿¿>¿¿. ¿¿¿¿¿¿¿ 
+:e! ¿¿¿¿¿¿¿¿,¿¿¿¿¿¿¿ 
+
+
+
+·(¿[¿{¿}¿]¿)¿¿¿¿ 
+% ¿¿¿¿(¿[¿{ ¿}¿] ¿)¿¿¿¿ 
+) ¿¿¿¿¿( 
+) ¿¿¿¿¿[ 
+] ¿¿¿¿¿{ 
+
+
+·(¿[¿{¿}¿]¿)¿¿¿¿¿ 
+daB ¿¿{}¿¿¿¿¿¿ (¿¿v¿¿¿¿¿) 
+diB ¿¿{}¿¿¿¿ 
+ab ¿¿()¿¿¿¿ 
+ib ¿¿()¿¿¿¿( ¿¿() ) 
+
+aB ¿¿{}¿¿¿¿ 
+iB ¿¿{}¿¿¿¿( ¿¿{} ) 
+
+·¿¿¿¿¿¿¿¿¿ 
+
+¿ <C-N><C-P> ¿¿¿¿¿¿¿¿¿¿¿¿ 
+¿ <C-X><C-L> ¿¿¿¿¿(¿¿¿¿) 
+
+·¿¿ctags 
+#ctags -f /usr/share/vim/vim63/funcs.tags -R /opt/j2sdk/src
+/usr/src/kernels/2.6.9-5.EL-i686 
+
+^p ¿¿¿¿¿¿¿¿¿¿¿¿ 
+^n ¿¿¿¿~/.tags¿¿¿¿¿¿ 
+^[ ¿¿~/.tags¿¿¿¿¿¿¿¿¿¿¿, 
+¿^t¿¿¿¿ 
+:pta ¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+K ¿¿¿¿¿¿C¿¿¿man¿¿¿¿ 
+
+·¿¿¿¿ 
+gd ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+Gd ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+
+·¿¿¿¿ 
+:cn ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+:cc ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+:cl ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+
+
+3]¿¿¿¿ 
+·¿¿ 
+h ¿¿¿¿¿¿¿¿¿ 
+l ¿¿¿¿¿¿¿¿¿ 
+
+·¿ 
+w ¿ W ¿¿¿¿¿¿¿¿¿¿¿ 
+B ¿ b ¿¿¿¿¿¿¿¿¿¿¿ 
+E ¿ e ¿¿¿¿¿¿¿¿¿¿¿ 
+
+·¿} ¿¿¿¿¿¿¿ 
+( ¿¿¿¿¿¿¿ 
+
+·¿) ¿¿¿¿¿¿¿¿¿ 
+{ ¿¿¿¿¿¿¿¿¿ 
+
+·¿k ¿ Ctrl+p ¿¿¿¿¿¿¿ 
+j ¿ Ctrl+n ¿¿¿¿¿¿¿ 
+Enter ¿¿¿¿¿¿¿ 
+nG ¿¿¿¿¿ n ¿¿¿ 
+n+ ¿¿¿¿ n ¿¿ 
+n- ¿¿¿¿ n ¿¿ 
+n$ ¿¿¿¿¿ n ¿¿¿ 
+0 ¿¿¿¿¿¿¿¿¿ 
+$ ¿¿¿¿¿¿¿¿¿ 
+
+·¿¿ 
+H ¿¿¿¿¿¿¿¿¿ 
+M ¿¿¿¿¿¿¿¿¿¿ 
+L ¿¿¿¿¿¿¿¿¿¿ 
+Ctrl+u ¿¿¿¿¿¿¿¿ 
+Ctrl+d ¿¿¿¿¿¿¿¿ 
+Ctrl+f ¿¿¿¿¿¿¿¿ 
+Ctrl+b ¿¿¿¿¿¿¿¿ 
+nz ¿¿ n ¿¿¿¿¿¿¿¿¿¿¿ n ¿¿¿¿¿¿¿¿¿¿¿ 
+
+4}¿¿ 
+
+# ¿¿¿¿¿¿¿¿(¿¿¿¿¿¿¿¿¿¿¿) 
+¿:g/^/exec "s/^/".strpart(line(".")." ", 0, 4) 
+
+·¿¿ 
+i ¿¿¿¿¿¿¿ 
+a ¿¿¿¿¿¿¿ 
+
+·¿ 
+I ¿¿¿¿¿¿¿¿ 
+A ¿¿¿¿¿¿¿¿ 
+o ¿¿¿¿¿¿¿¿¿¿¿¿ 
+O ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+
+
+5)¿¿ 
+r ¿¿¿¿¿¿¿ 
+R ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ ESC ¿¿ 
+s ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+S ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+6)¿¿ 
+ncw ¿ nCW ¿¿¿¿¿¿¿¿¿¿ 
+nCC ¿¿¿¿¿¿¿¿¿ 
+:r filename ¿¿¿ filename ¿¿¿¿¿¿¿¿ 
+
+7)¿¿¿¿ 
+
+/<C-R><C-W> ¿¿¿¿¿ <cword> ¿¿ ¿¿¿¿ ¿ 
+/<C-R><C-A> ¿¿¿¿¿ <cWORD> ¿¿ ¿¿¿¿ ¿ 
+
+:g/str/s/str1/str2/g 
+¿¿¿g¿¿¿¿¿¿¿¿s1¿¿¿¿¿¿¿¿ 
+¿¿¿g¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+¿¿str¿¿¿¿¿str1¿¿str2¿¿ 
+:%s/f $/for$/g ¿¿¿¿¿¿¿¿f ¿¿f¿¿¿¿¿¿¿¿¿for 
+:%s/^/mv /g ¿¿¿¿¿¿¿¿¿¿mv ¿¿mv¿¿¿¿¿¿ 
+
+:s/fred/<c-r>a/g ¿¿fred¿register a¿¿¿¿¿¿¿ 
+
+
+:g/<input|<form/p ¿¿¿<input¿<form¿¿ 
+
+
+# ¿¿¿¿visual¿¿ 
+# ¿¿¿¿¿¿¿¿¿¿¿ :s/Emacs/Vim/ ¿¿¿vim¿¿¿¿¿:¿¿ 
+:'<,'>s/Emacs/Vim/g ¿¿¿'<,'>¿vim¿¿¿¿¿ 
+
+
+# ¿¿¿¿¿¿¿¿ 
+:bufdo /searchstr 
+:argdo /searchstr 
+
+
+
+
+¿¿¿¿¿ 
+xp ¿¿¿¿¿¿¿¿¿¿¿ 
+ddp ¿¿¿¿¿¿¿¿¿ 
+:g/fred/t$ ¿¿¿¿¿fred¿¿¿¿¿(EOF) 
+
+
+
+9)¿¿¿¿ 
+:vne [filename] 
+:sp [filename] 
+:S [filename] 
+:new [filename] 
+:^w + ^r ¿¿¿¿¿¿¿¿¿ 
+^w = ¿¿¿¿ 
+:res -n ¿¿¿¿¿¿n 
+:res +n ¿¿¿¿¿¿n 
+:vert res -n 
+:vert res +n 
+
+10)DOS¿¿¿¿¿¿Unix¿¿¿¿ 
+:1,$s/^M//g 
+
+11)¿¿ 
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿debug1¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿mdebug1¿¿¿¿¿¿¿¿¿¿¿¿¿
+¿¿debug1¿¿¿¿¿¿¿¿¿ 
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿`debug1¿¿¿¿¿¿¿¿¿¿debug1¿¿¿¿¿¿¿¿¿¿¿ 
+
+
+12)¿¿¿¿ 
+
+:%s/r//g ¿¿DOS¿¿¿¿¿^M 
+:%s= *$== ¿¿¿¿¿¿ 
+
+:%s/^(.*)n1/1$/ ¿¿¿¿¿ 
+
+:%s/^.{-}pdf/new.pdf/ ¿¿¿¿¿¿¿pdf 
+
+:%s/<!--_.{-}-->// ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+:g/^s*$/d ¿¿¿¿¿¿ 
+:g!/^dd/d ¿¿¿¿¿¿¿'dd'¿¿ 
+:v/^dd/d ¿¿ ¿¿¿¿v == g!¿¿¿¿¿¿¿¿ 
+
+:g/str1/,/str2/d ¿¿¿¿¿¿¿¿str1¿¿¿¿¿str2¿¿¿¿ 
+
+
+:v/./.,/./-1join ¿¿¿¿ 
+:g/^$/,/./-j ¿¿¿¿ 
+
+ndw ¿ ndW ¿¿¿¿¿¿¿¿¿¿¿ n-1 ¿¿¿¿ 
+d0 ¿¿¿¿¿ 
+d$ ¿¿¿¿¿ 
+ndd ¿¿¿¿¿¿¿¿ n-1 ¿¿ 
+x ¿ X ¿¿¿¿¿¿¿ 
+Ctrl+u ¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+^R ¿¿u¿¿¿ 
+J ¿¿¿¿¿¿¿¿¿¿¿ 
+V ¿¿¿¿ 
+^V ¿¿^V¿¿¿¿¿¿¿¿¿¿¿ 
+aw ¿¿¿¿ 
+iw ¿¿¿¿(¿¿¿) 
+as ¿¿¿¿ 
+is ¿¿¿¿(¿¿¿) 
+ap ¿¿¿¿ 
+ip ¿¿¿¿(¿¿¿) 
+D ¿¿¿¿¿ 
+x,y ¿¿¿¿¿¿¿¿¿¿ 
+
+dl ¿¿¿¿¿¿¿¿x¿¿¿¿¿¿¿ 
+d0 ¿¿¿¿¿¿¿¿¿¿¿ 
+d^ ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿TAB¿¿¿ 
+dw ¿¿¿¿¿¿¿¿¿¿¿¿ 
+d3w ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+db ¿¿¿¿¿¿¿¿¿¿¿¿ 
+dW ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+dB ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+d7B ¿¿¿¿¿7¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+d¿ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+d4¿ ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+d¿ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+d¿ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+d{ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+d7{ ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿7¿¿¿¿¿ 
+dd ¿¿¿¿¿ 
+d/text ¿¿¿¿¿¿¿¿¿text¿¿¿¿¿¿¿¿¿¿¿ 
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+dfc
+¿¿¿¿¿¿¿¿¿¿¿c¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+dtc ¿¿¿¿¿¿¿¿¿¿¿¿¿c¿¿¿¿¿¿¿¿¿¿¿ 
+D ¿¿¿¿¿¿¿¿¿ 
+d$ ¿¿¿¿¿¿¿¿¿ 
+5dd ¿¿¿¿¿¿¿¿¿¿5¿¿¿ 
+dL ¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+dH ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+dG ¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+d1G ¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+¿¿¿¿¿¿ 
+r ¿¿¿¿¿¿ 
+cw ¿¿¿¿¿¿¿¿¿¿¿¿ 
+c3w ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+cb ¿¿¿¿¿¿¿¿¿¿¿¿ 
+cW ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+cB ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+c7B ¿¿¿¿¿7¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+c0 ¿¿¿¿¿¿¿¿¿¿ 
+c} ¿¿¿¿¿¿¿¿¿¿¿¿ 
+c4} ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+c¿ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+c¿ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+c{ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+c7{ ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿7¿¿¿¿¿ 
+ctc ¿¿¿¿¿¿¿¿¿¿¿¿c¿¿¿¿¿¿¿¿¿¿ 
+C ¿¿¿¿¿¿¿¿¿ 
+cc ¿¿¿¿¿ 
+5cc ¿¿¿¿¿¿¿¿¿¿5¿¿¿ 
+. ¿¿¿¿¿¿¿¿ 
+
+
+13}Set ¿¿¿¿ 
+set all ¿¿¿¿¿¿¿¿¿¿¿ 
+set term ¿¿¿¿¿¿¿ 
+set ignorecase ¿¿¿¿¿¿¿¿¿¿ 
+set list ¿¿¿¿¿(^I)¿¿¿¿¿($)¿ 
+set number ¿¿¿¿¿ 
+set showmode ¿¿¿¿¿¿¿¿¿¿ 
+set report ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+set terse ¿¿¿¿¿¿¿¿¿¿ 
+set warn ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ No write ¿¿¿ 
+set autowrite ¿¿:n¿¿¿:!¿¿¿¿¿¿¿¿¿¿¿¿ 
+set nomagic ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿/¿¿¿¿¿¿ 
+set nowrapscan ¿¿ vi ¿¿¿¿¿¿¿¿¿¿,¿¿¿¿¿¿¿¿ 
+set mesg ¿¿ vi ¿¿¿¿¿¿¿ write ¿¿¿¿¿¿¿¿¿¿¿ 
+
+autoindent (ai) noai ¿¿¿¿¿¿¿,¿¿(¿)¿¿¿¿¿¿ 
+autoprint (ap) ap ¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+autowrite (aw) noaw ¿:n,:!¿¿¿¿¿¿¿¿¿¿¿ 
+beautify (bf) nobf
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿(¿¿¿¿¿(tab),¿¿(newline),¿¿(formfeed)) 
+directory= (dir=) /tmp ¿¿¿¿¿¿¿¿¿ 
+edcompatible noedcompatible ¿¿¿¿¿¿¿¿¿ed¿¿¿ 
+errorbells (eb) errorbells ¿¿¿¿¿¿¿ 
+exrc (ex) noexrc ¿¿¿¿¿¿(home)¿¿¿¿¿.exrc¿¿ 
+hardtabs= (ht=) 8 ¿¿¿¿¿¿¿¿ 
+ignore case (ic) noic ¿¿¿¿¿¿¿¿¿ 
+lisp nolisp ¿¿lisp¿¿ 
+list nolist ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+magic agic ¿¿¿¿¿¿¿¿¿¿¿¿ 
+mesg mesg ¿¿¿¿¿¿¿¿¿ 
+number (nu) nonumber ¿¿¿¿ 
+open open ¿¿¿¿¿¿¿¿ 
+optimize (opt) optimize ¿¿¿¿¿,¿¿¿¿¿¿¿ 
+paragraphs= (para=) IPLPPPQPPLIbp ¿¿{ & }¿¿¿¿ 
+prompt prompt ¿¿¿¿¿¿¿¿¿¿:¿¿¿¿ 
+readonly (ro) noro ¿¿¿!¿¿¿¿¿¿¿¿¿ 
+redraw noredraw ¿¿¿¿¿¿¿¿¿¿ 
+remap remap ¿¿¿¿¿¿¿¿¿ 
+report= 5 ¿¿¿¿¿¿¿>¿¿¿¿¿¿¿¿ 
+scroll 1/2 window ¿¿¿¿¿¿¿¿¿¿¿¿, ¿¿¿¿¿z¿¿¿¿¿¿¿(z
+¿¿2¿¿¿¿¿¿) 
+sections= SHNHH HU ¿¿¿¿¿¿(¿¿¿¿¿[[ ¿ ]] ¿) 
+shell= (sh=) /bin/sh ¿¿¿SHELL,¿¿¿¿¿¿¿¿¿SHELL¿¿,¿¿¿¿¿ 
+shiftwidth= (sw=) 8 ¿¿¿¿¿(shift)¿¿¿¿¿¿¿¿¿ 
+showmatch (sm) nosm ¿¿{, }, (, ), [, ¿¿ ] ¿¿¿¿¿ 
+showmode noshowmode ¿¿¿¿¿¿¿¿¿¿¿ 
+slowopen (slow) ¿¿¿¿¿¿¿¿¿¿¿¿ 
+tabstop= (ts=) 8 ¿¿¿¿¿¿¿(tabstop)¿¿¿ 
+taglength= (tl=) 0 ¿¿¿¿¿¿¿¿¿(0¿¿¿¿¿¿¿) 
+tags= tag, /usr/lib/tags ¿¿¿¿¿¿¿¿¿¿¿ 
+term= ¿¿¿¿¿¿ 
+terse noterse ¿¿¿¿¿¿¿¿¿ 
+timeout (to) timeout ¿¿¿¿¿¿¿¿¿¿ 
+ttytype= ¿¿¿¿¿¿ 
+warn warn ¿¿"No write since last change"¿¿ 
+window= (w=) ¿¿¿¿¿¿¿¿¿¿ 
+wrapmargin= (wm=) 0 ¿¿¿,¿¿0¿¿¿¿¿¿¿¿¿¿¿,¿¿n¿¿¿¿¿ 
+wrapscan (ws) ws ¿¿¿¿¿¿¿¿¿¿¿¿ 
+writeany (wa) nowa ¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+14}¿¿¿¿ 
+^ ¿¿¿¿¿¿¿¿¿¿ 
+$ ¿¿¿¿¿¿¿¿¿¿ 
+. ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+* ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+[] ¿¿¿¿¿¿,¿¿¿¿¿¿¿¿¿¿¿¿¿¿-¿¿¿¿¿ 
+¿¿¿¿¿^¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+ESC ¿¿¿¿¿¿¿¿¿¿¿¿ 
+^[ ¿¿¿ ESC 
+
+15]¿¿¿¿¿ 
+guu ¿¿¿ 
+gUU ¿¿¿ 
+g~~ ¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+guw ¿¿¿(¿¿¿) ¿¿¿¿¿¿¿iw 
+gUw ¿¿¿(¿¿¿) 
+g~w ¿¿¿(¿¿¿) 
+
+vEU ¿¿¿(¿¿¿) 
+vE~ ¿¿¿(¿¿¿) 
+
+ggguG ¿¿¿¿¿¿¿¿¿¿ft!bt!¿ 
+
+16) ¿¿¿¿'. ¿¿¿¿¿¿¿¿¿¿ (¿¿¿¿)(ft,¿¿¿¿¿¿¿¿) 
+`. ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+<C-O> ¿¿¿¿¿¿¿¿¿¿¿¿¿ (¿¿¿¿¿¿¿¿) 
+<C-I> ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+:ju(mps) ¿¿¿¿¿¿¿¿ 
+
+17)¿¿¿¿ 
+:history ¿¿¿¿¿¿¿¿ 
+:his c ¿¿¿¿¿¿¿ 
+:his s ¿¿¿¿¿¿ 
+q/ ¿¿¿¿¿¿¿¿¿ 
+q ¿¿¿¿¿¿¿¿¿¿ 
+:<C-F> ¿¿¿¿¿¿¿¿¿ 
+
+18]¿¿¿ 
+# ¿¿¿¿¿(Registers) 
+:reg ¿¿¿¿¿¿¿registers 
+"1p ¿¿¿¿register¿1¿¿¿¿¿¿¿¿1¿register¿p¿¿¿¿¿paste¿¿¿ 
+
+¿¿¿ 
+"¿¿¿¿¿register 
+¿¿¿ ",¿¿¿¿register 
+¿¿¿¿¿¿¿¿0~9,a~z 
+¿¿¿¿¿¿¿¿¿¿¿¿¿dd¿y¿ 
+¿¿¿visual¿¿¿¿d(¿¿¿¿¿¿¿)¿y(¿¿¿¿¿¿¿) 
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿register 
+
+¿¿¿¿¿¿¿¿register, "" ¿¿¿¿¿¿¿¿¿¿¿¿¿/¿¿ 
+¿¿¿¿dd¿y¿¿¿¿¿¿¿¿¿¿¿¿¿¿""¿ 
+
+19}¿¿¿ 
+"ayy@a ¿¿¿¿¿¿¿¿Vim¿¿¿¿¿ 
+¿¿¿"ayy ¿¿¿¿¿¿¿register a¿¿¿@a¿¿¿register a¿¿¿¿¿¿ 
+
+10yy copy ¿¿¿¿¿10¿ 
+
+11} ¿¿ 
+:%!sort -u ¿¿sort¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+!1¿ sort -u ¿¿¿¿¿¿ (¿¿¿normal¿¿¿¿¿!!) 
+:.,+5!sort ¿¿¿¿¿¿¿¿5¿ 
+
+20¿ ¿¿¿ 
+
+:%s= [^ ]+$=&&= ¿¿¿¿¿¿ 
+:%s= f+$=&&= ¿¿¿¿¿ 
+:%s= S+$=&& ft,¿¿¿¿ 
+
+:s/(.*).*)/2"1/ ¿¿¿:¿¿¿¿¿¿¿ 
+
+:%s(w+s+){2})str1:1str2: ¿¿¿¿¿¿¿¿¿¿¿¿¿¿str1 
+
+:%sw+)(.*s+)(w+)$:321: ¿¿¿¿¿¿¿¿¿¿ (¿4¿) 
+
+
+·.vimrc 
+
+" Use Vim settings, rather then Vi settings (much better!). 
+set nocompatible 
+
+"c¿¿¿¿¿ 
+:set expandtab "¿¿¿tab¿¿¿¿¿ 
+:set cindent shiftwidth=4 
+
+"¿¿¿¿ 
+:set ai 
+
+
+"¿¿ 
+":set filetype=j***a 
+:set syntax=j***a 
+
+"¿¿)¿] ¿}¿¿¿(¿[¿{ 
+:set showmatch 
+
+"¿¿¿¿¿¿ 
+:set foldmethod=manual 
+
+
+"¿¿¿¿¿¿ 
+set tags=/usr/share/vim/vim63/funcs.tags 
+
+"¿¿¿¿¿¿¿¿¿[Ctrl]N¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+set complete+=k 
+
+" ¿¿¿¿¿¿¿¿ 
+set visualbell 
+
+"¿¿ 
+:set history=50 
+
+"¿¿¿¿¿¿ 
+:set ruler 
+
+"¿¿¿¿¿¿ 
+set fileencodings=gb2312 
+"set encoding=euc-cn 
+
+"¿¿ruler 
+set ruler 
+
+"¿¿¿¿¿¿ 
+set showcmd 
+
+"incsearch 
+set incsearch 
+
+" allow backspacing over everything in insert mode 
+set backspace=indent,eol,start 
+
+"¿¿¿¿¿¿¿¿ 
+:filetype on 
+
+
+"""""""""""¿¿¿¿
+¿""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+if version >= 600 
+
+"¿¿ 
+"map <C-H> / 
+
+"¿¿¿¿¿¿ 
+map <C-H> yiw/^/(/s/)*/(sub/)//|/(function/)/(/s/)*<C-r>"<CR> 
+
+"¿¿¿¿ 
+map <F3> n 
+
+
+"¿¿<F10>¿¿¿¿¿¿¿¿¿¿¿ 
+map <F2> :Tlist<CR> 
+
+" ¿compiler¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+"map <F9> :make "%"<CR> 
+
+"¿¿<F11>¿¿¿PHP¿¿¿¿ 
+map <F11> :!php -l "%" <CR> 
+
+map ;w :call FormatText()<CR> 
+
+"¿¿¿¿¿¿¿¿¿ 
+map <F4> /<C-R><C-W><CR> 
+endif 
+"""""""""""::¿¿¿¿
+¿""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+
+"""""""""""¿¿¿¿
+¿""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+function FormatText() 
+:%s//t/ /g "¿/t¿¿4¿¿¿ 
+:%s/ *$//g "¿¿¿¿¿¿ 
+
+endfunction 
+
+"""""""""""¿¿¿¿
+¿""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+
+
+
+""""""""""¿¿¿¿¿tab¿¿¿¿¿""""""""""""""""""""""""""""""""""""""""""""""" 
+set listchars=tab:>-,trail:~ 
+set list 
+syntax match Trail " +$" 
+highlight def link Trail Todo 
+
+""""""""""::¿¿¿¿¿tab¿¿¿¿¿""""""""""""""""""""""""""""""""""""""""""""" 
+
+function LastMod() 
+if line("$") > 5 
+let l = 5 
+else 
+let l = line("$") 
+endif 
+exe "1," . l . "/CnsProgCMTime/s/CnsProgCMTime .*/CnsProgCMTime " .
+strftime("%Y-%m-%d %H:%M:%S")."/e" 
+endfunction 
+
+"map <F5> :call LastMod()<CR> 
+
+"""""""""""¿¿¿¿¿¿*¿¿"""""""""""""""""""""""""""""""""""""""""""""""""""" 
+"¿¿¿/* ... */ ¿¿¿¿,r¿¿¿¿¿¿¿¿¿¿¿* ; 
+"o ¿¿¿¿¿¿¿¿¿ "o" ¿ "O" ¿¿¿* 
+:set formatoptions=tcro 
+
+"""""""""""::¿¿¿¿¿¿*¿¿"""""""""""""""""""""""""""""""""""""""""""""""""" 
+
+
+
+vi¿¿¿¿¿¿¿¿ 
+
+| ¿¿¿¿¿¿home|house ¿¿¿home¿house 
+
+() ¿¿¿¿¿¿home|house¿¿¿¿ho(me|use) 
+*¿¿¿¿()¿(home|house)* ¿¿¿¿home, homehouse,househome,
+homehousehomehouse 
+
+/(.../) ¿¿¿¿¿¿¿¿¿¿¿/1¿/2¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
++
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿()¿/(.../)¿¿¿¿¿¿¿¿¿¿¿¿ 
+ho(use|me)+ ¿¿¿¿house¿home¿¿¿¿¿ 
+
+? ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿free?d
+¿¿¿fred¿freed¿¿¿¿¿¿¿¿¿¿ 
+
+
+{...} ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿/{.../} 
+{n} (home|house){2} ¿¿¿¿homehome, homehouse, househome, househouse 
+{n,} 
+{n,m} 
+{,n} 
+
+¿¿¿¿ 
+
+·¿¿¿¿¿¿¿ ¿¿¿¿ 
+:!perl -c % 
+:!php -l % ¿php¿¿¿¿¿ 
+:!php -q % ¿php¿¿¿¿¿ 
+
+
+·¿¿¿¿¿¿¿a.out¿¿¿¿./a.out 
+:!gcc % -o a.out && ./a.out 
+¿¿¿¿ 
+old umask is %#0 
+new umask is %#0 
+
+·¿¿¿¿¿¿ 
+:cl! ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+:cl ¿¿¿¿¿¿¿¿¿ 
+:cn ¿¿¿¿¿¿¿¿¿ 
+:cp ¿¿¿¿¿¿¿¿¿ 
+
+
+:cnew ¿¿¿¿¿¿¿¿ 
+:cold ¿¿¿¿¿¿¿¿ 
+
+:cwin ¿ :copen ¿¿¿¿¿¿¿¿ 
+:cclose ¿¿¿¿¿¿¿¿¿¿¿ 
+
+
+
+¿¿¿¿ 
+
+CTRL-X CTRL-F ¿¿¿ 
+CTRL-X CTRL-L ¿¿ 
+CTRL-X CTRL-D ¿¿¿ (¿¿¿¿¿¿¿¿¿) 
+CTRL-X CTRL-I ¿¿¿¿¿¿¿¿¿¿¿¿ 
+CTRL-X CTRL-K ¿¿¿¿¿¿¿¿ 
+CTRL-X CTRL-T ¿¿¿¿¿¿¿¿¿¿¿ 
+CTRL-X CTRL-] ¿¿ 
+CTRL-X CTRL-V Vim ¿¿¿ 
+
+
+
+C¿¿¿¿ 
+
+gd ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+gD ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+-------------------------------------------------------------------------------------- 
+
+:checkpath ¿¿¿¿include¿¿¿¿ 
+-------------------------------------------------------------------------------------- 
+
+[i ¿¿¿¿¿¿ 
+extern __mode_t umask (__mode_t __mask) __THROW; 
+
+-------------------------------------------------------------------------------------- 
+
+[+CTRL+i ¿¿¿[i¿¿¿¿¿¿¿¿¿ 
+--------------------------------------------------------------------------------------[I
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+--------------------------------------------------------------------------------------[d
+¿¿¿#define¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+printf(|tom); 
+#define tom "yaoshuyin" 
+-------------------------------------------------------------------------------------- 
+CTRL+] ¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+CTRL+T ¿¿¿¿¿ CTRL-] ¿¿¿¿¿¿¿ 
+:tselect ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+
+[/ ¿¿¿¿¿¿¿¿¿¿¿ 
+]/ ¿¿¿¿¿¿¿¿¿¿¿ 
+
+---------------------------------------------------------------- 
+
+[# ¿¿¿¿¿¿¿ #if, #ifdef, or #else ¿¿ 
+]# ¿¿¿¿¿¿¿ #else ¿ #endif ¿¿ 
+
+[( ¿¿¿¿¿¿¿ '(' ¿¿ 
+)) ¿¿¿¿¿¿¿ ']' ¿¿ 
+
+[{ ¿¿¿¿¿¿¿¿ '{' ¿¿ 
+}} ¿¿¿¿¿¿¿¿ ']' ¿¿ 
+
+
+·¿¿¿¿¿¿¿¿ 
+ga ¿¿¿¿¿¿¿¿ascii,hex,oct,...¿¿¿¿¿¿¿ 
+
+¿ s ¿¿ga 
+<s> 115, Hex 73, Octal 163 
+
+¿¿¿¿ 
+
+<C-V>¿¿¿¿ 
+I<string><ESC> ¿¿¿¿¿¿¿¿¿string 
+A<string><ESC> ¿¿¿¿¿¿¿¿¿string 
+C<string><ESC> ¿¿¿¿¿¿¿(¿¿¿¿¿¿¿¿¿ ) 
+c<string><ESC> ¿¿¿¿¿¿¿(¿¿¿¿¿¿¿¿¿ ) 
+> ¿¿Tab¿¿ 
+
+vimrc¿¿¿¿¿¿¿¿ 
+
+¿¿D:/cnscnprogrames/Vim/vim63/¿¿¿ vi tmp/file.j***a
+(¿D:/cnscnprogrames/Vim/vim63/tmp/file.j***a) 
+
+
+expand("%") #tmp/file.j***a 
+expand("%:p") #D:/cnscnprogrames/Vim/vim63/tmp/file.j***a 
+expand("%:h") #tmp 
+expand("%:t") #file.j***a 
+expand("%:e") #j***a 
+expand("%:t:r") #file 
+expand("%:r") #tmp/file 
+
+
+
+
+·¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ 
+#vi ~/.vimrc 
+
+"¿¿F9¿¿¿¿¿¿¿¿ 
+map <F9> :call ProgCompileRun() <CR> 
+
+func ProgCompileRun() 
+"s***e the current file first 
+:w 
+
+"¿¿¿¿¿¿¿ ¿j***a php pl py 
+let ext = expand("%:e") 
+
+"¿¿J***a 
+if ext == "j***a" 
+if expand("%:h") != "" 
+:!j***ac % && j***a -classpath expand("%:h") %:t:r 
+else 
+:!j***ac % && j***a %:t:r 
+endif 
+return 
+endif 
+
+"¿¿php 
+if ext == "php" 
+:!php % 
+return 
+endif 
+
+"¿¿¿¿c/cc/cpp 
+if ext == "c" || ext == "cc" || ext == "cpp" 
+:!gcc % -o a.out && ./a.out 
+return 
+endif 
+
+"¿¿¿¿perl 
+if ext == "pl" 
+:!perl -c % 
+return 
+endif 
+
+"¿¿¿¿Python 
+if ext == "py" 
+:!python % 
+return 
+endif 
+
+endfunc
