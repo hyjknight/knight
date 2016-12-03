@@ -1,0 +1,18 @@
+优质解答
+单引号与双引号的最大不同在于双引号仍然可以保有变量的内容，但单引号内仅能是
+一般字符 ，而不会有特殊符号。我们以底下的例子做说明：假设您定义了一个变量， 
+name=VBird ，现在想以 name 这个变量的内容定义出 myname 显示 VBird its me 这
+个内容，要如何订定呢？ 
+
+[root@linux ~]# name=VBird 
+[root@linux ~]# echo $name 
+VBird 
+[root@linux ~]# myname="$name its me" 
+[root@linux ~]# echo $myname 
+VBird its me 
+[root@linux ~]# myname='$name its me' 
+[root@linux ~]# echo $myname 
+$name its me 
+
+发现了吗？没错！使用了单引号的时候，那么 $name 将失去原有的变量内容， 仅为
+一般字符的显示型态而已！这里必需要特别小心在意！
